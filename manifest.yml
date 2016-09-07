@@ -1,3 +1,6 @@
 applications:
 	- name: sample
 	  memory: 256M
+	  command: mvn clean spring-boot:run
+	  buildpack: https://github.com/prakashdge/sample.git
+	  
